@@ -1,0 +1,46 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+
+# Config do Python
+*.pyo
+*.pyd
+.python-version
+
+# Build / distribuição
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Pytest
+.pytest_cache/
+.cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Ferramentas de type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ferramentas de lint
+.ruff_cache/
+.pyre/
